@@ -1,0 +1,19 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{.Title}} by {{index .Frontmatter "author"}}</title>
+  <style>{{.Style}}</style>
+  <style>body { padding : 15px; }</style>
+</head>
+
+<body class="markdown-body">
+  <div class="post-main">
+    {{.Body}}
+  </div>
+  <div class="post-footer">
+    <p class="author">Posted by {{index .Frontmatter "author"}}</p>
+    <p class="publish-date">Published at {{index .Frontmatter "pubDate"}}</p>
+  </div>
+</body>
+</html>

@@ -1,5 +1,11 @@
 # md2html
 
+[![GoDoc](https://pkg.go.dev/badge/github.com/ansidev/md2html-cli?status.svg)](https://pkg.go.dev/github.com/ansidev/md2html-cli?tab=doc)
+[![Release](https://img.shields.io/github/release/ansidev/md2html-cli.svg)](https://github.com/ansidev/md2html-cli/releases)
+[![Build Status](https://github.com/ansidev/md2html-cli/workflows/test/badge.svg?branch=main)](https://github.com/ansidev/md2html-cli/actions?query=branch%3Amain)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ansidev/md2html-cli)](https://goreportcard.com/report/github.com/ansidev/md2html-cli)
+[![Sourcegraph](https://sourcegraph.com/github.com/ansidev/md2html-cli/-/badge.svg)](https://sourcegraph.com/github.com/ansidev/md2html-cli?badge)
+
 Command line application to convert Markdown file to HTML.
 
 ## Usage
